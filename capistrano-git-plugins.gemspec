@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "capistrano-plugins.gemspec",
+    "capistrano-git-plugins.gemspec",
     "lib/capistrano/git/plugins/airbrake.rb",
     "lib/capistrano/git/plugins/bundler.rb",
     "lib/capistrano/git/plugins/deploy_reporter.rb",
