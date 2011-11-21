@@ -14,7 +14,7 @@ module Airbrake
             rails_env = fetch(:airbrake_env, fetch(:rails_env, 'production'))
             local_user = ENV['USER'] || ENV['USERNAME']
             executable = RUBY_PLATFORM.downcase.include?('mswin') ? fetch(:rake, 'rake.bat') : fetch(:rake, 'rake')
-            notify_command = "cd #{deploy_to}; #{executable} RAILS_ENV=#{rails_env} airbrake:deploy TO=#{rails_env} REPO=#{repository} USER=#{local_user}"
+            notify_command = "cd #{deploy_to}; #{"sudo -u #{sudo_user}" if configuration[:sudo_user] } #{executable} RAILS_ENV=#{rails_env} airbrake:deploy TO=#{rails_env} REPO=#{repository} USER=#{local_user}"
             notify_command << ' DRY_RUN=true' if dry_run
             notify_command << " API_KEY=#{ENV['API_KEY']}" if ENV['API_KEY']
             puts "\n\n### NOTIFY AIRBRAKE: Notifying Airbrake of Deploy (#{notify_command})\n\n"
