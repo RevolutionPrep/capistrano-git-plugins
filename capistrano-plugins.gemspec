@@ -18,11 +18,20 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rvmrc",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "capistrano-plugins.gemspec",
+    "lib/capistrano/git/plugins/airbrake.rb",
+    "lib/capistrano/git/plugins/bundler.rb",
+    "lib/capistrano/git/plugins/deploy_reporter.rb",
+    "lib/capistrano/git/plugins/hoptoad.rb",
+    "lib/capistrano/git/plugins/kill_resque_workers.rb",
+    "lib/capistrano/git/plugins/new_relic.rb",
     "test/helper.rb",
     "test/test_capistrano-git-plugins.rb"
   ]
