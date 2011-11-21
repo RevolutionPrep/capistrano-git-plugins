@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "capistrano-plugins"
-  gem.homepage = "http://github.com/ryanmoran/capistrano-plugins"
+  gem.name = "capistrano-git-plugins"
+  gem.homepage = "https://github.com/RevolutionPrep/capistrano-git-plugins"
   gem.license = "MIT"
-  gem.summary = %Q{Plugins to support Revolution Prep's deployments}
-  gem.description = %Q{Plugins to support Revolution Prep's deployments}
+  gem.summary = %Q{Plugins to support capistrano-git deployments}
+  gem.description = %Q{Plugins to support capistrano-git deployments}
   gem.email = "ryan.moran@gmail.com"
   gem.authors = ["Ryan Moran"]
   # dependencies defined in Gemfile
