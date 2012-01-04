@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "capistrano-git-plugins"
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ryan Moran"]
-  s.date = "2011-12-21"
+  s.date = "2012-01-04"
   s.description = "Plugins to support capistrano-git deployments"
   s.email = "ryan.moran@gmail.com"
   s.extra_rdoc_files = [
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/RevolutionPrep/capistrano-git-plugins"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.12"
+  s.rubygems_version = "1.8.13"
   s.summary = "Plugins to support capistrano-git deployments"
 
   if s.respond_to? :specification_version then
