@@ -4,8 +4,8 @@ Capistrano::Configuration.instance(:must_exist).load do
   namespace :resque_workers do
     desc 'restart resque workers'
     task :restart, :roles=> :god do
-      puts "\n\n### RESTART RESQUE WORKERS!: Killing the resque workers, God will resurrect them.\n\n"
-      run "sudo #{deploy_to}/config/god/kill_resque_workers.sh; exit 0"
+      puts "\n\n### RESTART RESQUE WORKERS!: Telling god to restart our resque workers.\n\n"
+      run "sudo #{configuration[:ruby_bin_dir]}/ruby #{configuration[:ruby_bin_dir]}god restart #{config[:application]-resque}; exit 0"
     end
   end
 end
