@@ -1,13 +1,12 @@
 = capistrano-git-plugins
 
 A collection of common capistrano tasks:
-- Airbrake deployment notification
-- Bundler deployment
-- Deployment reporting
-- Hoptoad deployment notification
-- Kill resque workers
-- NewRelic activation by copying newrelic.yml into place
-
+- 'capistrano/git/plugins/airbrake' Airbrake deployment notification
+- 'capistrano/git/plugins/bundler' Bundler deployment
+- 'capistrano/git/plugins/deploy_reporter' Deployment reporting
+- 'capistrano/git/plugins/hoptoad' Hoptoad deployment notification
+- 'capistrano/git/plugins/kill_resque_workers' Kill resque workers
+- 'capistrano/git/plugins/new_relic' NewRelic activation by copying newrelic.yml into place
 
 == Contributing to capistrano-git-plugins
  
