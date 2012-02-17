@@ -1,6 +1,13 @@
 = capistrano-git-plugins
 
-Description goes here.
+A collection of common capistrano tasks:
+- Airbrake deployment notification
+- Bundler deployment
+- Deployment reporting
+- Hoptoad deployment notification
+- Kill resque workers
+- NewRelic activation by copying newrelic.yml into place
+
 
 == Contributing to capistrano-git-plugins
  
@@ -14,6 +21,5 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Ryan Moran. See LICENSE.txt for
-further details.
+Copyright (c) 2011-2012 Ryan Moran. See LICENSE.txt for further details.
 
