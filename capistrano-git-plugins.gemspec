@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "capistrano-git-plugins"
-  s.version = "0.0.12"
+  s.name = %q{capistrano-git-plugins}
+  s.version = "0.0.13"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ryan Moran"]
-  s.date = "2012-02-16"
-  s.description = "Plugins to support capistrano-git deployments"
-  s.email = "ryan.moran@gmail.com"
+  s.date = %q{2012-02-16}
+  s.description = %q{Plugins to support capistrano-git deployments}
+  s.email = %q{ryan.moran@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -40,11 +40,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_capistrano-git-plugins.rb"
   ]
-  s.homepage = "https://github.com/RevolutionPrep/capistrano-git-plugins"
+  s.homepage = %q{https://github.com/RevolutionPrep/capistrano-git-plugins}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
-  s.summary = "Plugins to support capistrano-git deployments"
+  s.rubygems_version = %q{1.4.2}
+  s.summary = %q{Plugins to support capistrano-git deployments}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
