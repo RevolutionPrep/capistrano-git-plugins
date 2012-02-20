@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{capistrano-git-plugins}
-  s.version = "0.0.17"
+  s.version = "0.0.18"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ryan Moran"]
-  s.date = %q{2012-02-17}
+  s.date = %q{2012-02-20}
   s.description = %q{Plugins to support capistrano-git deployments}
   s.email = %q{ryan.moran@gmail.com}
   s.extra_rdoc_files = [
@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".idea/encodings.xml",
-    ".idea/misc.xml",
     ".idea/modules.xml",
     ".idea/vcs.xml",
     ".rvmrc",
